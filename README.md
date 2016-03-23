@@ -2,6 +2,7 @@
 
 [![Build
 Status](https://secure.travis-ci.org/terryyin/japanese-names-rb.png?branch=master)](http://travis-ci.org/terryyin/japanese-names-rb)
+[![Gem Version](https://badge.fury.io/rb/japanese-name.svg)](https://badge.fury.io/rb/japanese-name)
 
 This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII. 
 
