@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese-name (0.0.0)
+    japanese-name (0.1.0)
       json
       romaji (~> 0.2.3)
 

@@ -36,6 +36,17 @@ task :update_data do
   end
 end
 
+desc 'update the data from web pages'
+task :update_surname do
+  File.open("lib/surname.json","w") do |f|
+    f.write Hash[
+      File.open(File.expand_path("../surname.csv", __FILE__), "r:UTF-8")
+      .read
+      .scan(/\"(.*?),(.*?)\"/)
+      .collect{|h, k| [k, h]}].to_json
+  end
+end
+
 RSpec::Core::RakeTask.new(:spec) do |t|
     t.fail_on_error = false
 end
