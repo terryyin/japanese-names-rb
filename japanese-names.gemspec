@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII."
   s.authors     = ["Terry Yin"]
   s.email       = 'terry.yinzhe@gmail.com'
-  s.files       = ["lib/japanese-name.rb"]
+  s.files       = ["lib/japanese-name.rb", "lib/data.json"]
   s.homepage    =
     'https://github.com/terryyin/japanese-names.rb'
   s.license       = 'MIT'
@@ -14,4 +14,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 3.4.0"
+  s.add_development_dependency "rspec-its"
 end
