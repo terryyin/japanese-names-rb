@@ -16,7 +16,7 @@ class JapaneseName < Struct.new(:hiragana, :kanji)
   end
 
   def self.all_kanji_given_names
-    @@all_kanji_given_names ||= read_all_kanji_names(File.expand_path "../data.json", __FILE__)
+    @@all_kanji_given_names ||= read_all_kanji_names(File.expand_path "../givenname.json", __FILE__)
   end
 
   def self.family_name_to_hiragana(name)

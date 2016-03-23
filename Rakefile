@@ -6,7 +6,7 @@ require File.expand_path("lib/crawler")
 
 desc 'update the data from web pages'
 task :update_data do
-  File.open("lib/data.json","w") do |f|
+  File.open("lib/givenname.json","w") do |f|
     f.write Hash[
       [
         "http://web.archive.org/web/20060206222600/http://www.kokemus.kokugo.juen.ac.jp/names/namae/NA-00100.html",

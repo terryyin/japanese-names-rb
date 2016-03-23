@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = 'japanese-name'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2016-03-22'
   s.summary     = "This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII."
   s.description = "This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII."
   s.authors     = ["Terry Yin"]
   s.email       = 'terry.yinzhe@gmail.com'
-  s.files       = ["lib/japanese-name.rb", "lib/data.json"]
+  s.files       = ["lib/japanese-name.rb", "lib/givenname.json", "lib/surname.json"]
   s.homepage    =
     'https://github.com/terryyin/japanese-names-rb'
   s.license       = 'MIT'
