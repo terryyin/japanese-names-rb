@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'japanese-name'
-  s.version     = '0.1.3'
+  s.version     = '0.1.4'
   s.date        = '2016-12-05'
   s.summary     = "This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII."
   s.description = "This Ruby library convert known Japanese names in Kanji or Hiragana to Romaji, or ASCII."
