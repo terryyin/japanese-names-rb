@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese-name (0.1.2)
+    japanese-name (0.1.4)
       json
       romaji (~> 0.2.3)
 
@@ -17,7 +17,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     json (1.8.3)
-    rake (11.1.1)
+    rake (11.3.0)
     romaji (0.2.3)
       rake (>= 0.8.0)
     rspec (3.4.0)
@@ -57,3 +57,6 @@ DEPENDENCIES
   rake
   rspec (~> 3.4.0)
   rspec-its
+
+BUNDLED WITH
+   1.12.3
